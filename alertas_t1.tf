@@ -25,6 +25,6 @@ resource "google_monitoring_notification_channel" "email_channel" {
   display_name = "Canal para alertas prometheus"
   type         = "email"
   labels = {
-    email_address = ""
+    email_address = var.alert_email_address
   }
 }
