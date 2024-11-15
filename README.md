@@ -32,9 +32,9 @@ As variáveis estão definidas nos arquivos variables.tf e terraform.tfvars. Cer
 
 ## O Terraform irá:
 
-- Antes de  aplicar a configuração, altere o Project ID no manifesto prometheus_ui
+Antes de  aplicar a configuração, altere o Project ID no manifesto prometheus_ui
 
-    terraform init && terraform apply
+        terraform init && terraform apply
 
 - Criar as contas de serviço para o Velero e Prometheus.
 - Configurar o bucket do Velero.
