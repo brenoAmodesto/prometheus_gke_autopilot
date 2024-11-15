@@ -40,3 +40,7 @@ Antes de  aplicar a configuração, altere o Project ID no manifesto prometheus_
 - Configurar o bucket do Velero.
 - Aplicar os manifestos necessários para o Prometheus Gerenciado.
 - Configurar o canal de alerta e os alertas no GCM para envio de notificações por e-mail.
+
+## Diagram
+
+![App Screenshot](https://github.com/brenoAmodesto/prometheus_gke_autopilot/blob/main/diagram.png?raw=true)
